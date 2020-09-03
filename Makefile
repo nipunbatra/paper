@@ -8,6 +8,7 @@ pdf: $(MAIN).tex $(REFS).bib
 	pdflatex -interaction=nonstopmode $(MAIN)
 	pdflatex -interaction=nonstopmode $(MAIN)
 
+	pdflatex -interaction=nonstopmode $(MAIN)
 clean:
 	rm *.aux
 	rm *.bbl
